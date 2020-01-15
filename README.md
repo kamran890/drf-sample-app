@@ -69,6 +69,18 @@ Application will be available on http://localhost
 
 # URL's
 
+* Base URL
+
+http://localhost
+
+* Registration
+
+`http://localhost/register`
+
+* Login
+
+`http://localhost/login`
+
 * Django REST Framework API's
 
 `http://localhost/api`
