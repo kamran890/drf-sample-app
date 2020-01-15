@@ -2,10 +2,10 @@ Django Application REST API (using django-rest-framework)
 
 * User Signup
 * API to list/retrieve/create/update a Post having fields id, title, body, status, author and created_on (and any other field you deem fit), where status can be draft, unpublished or published.
-** Create is only allowed for logged in users, Update is only allowed by the author of the post.
-** List API should only return id, title, status and created_on sorted by created_on. It should support filter to return post authored by authenticated API user only.
-** List API should return draft and unpublished post ONLY to the author of the respective posts.
-** If a Post is published, it can be retrieved by any user. It should log the count of retrieves against each published post by non-authors to keep a track of post views.
+	* Create is only allowed for logged in users, Update is only allowed by the author of the post.
+	* List API should only return id, title, status and created_on sorted by created_on. It should support filter to return post authored by authenticated API user only.
+	* List API should return draft and unpublished post ONLY to the author of the respective posts.
+	* If a Post is published, it can be retrieved by any user. It should log the count of retrieves against each published post by non-authors to keep a track of post views.
 
 # Instructions for Ubuntu
 
