@@ -1,0 +1,10 @@
+wheel
+Django
+gunicorn
+django-simple-history
+django-oauth-toolkit
+django-cors-headers
+djangorestframework
+mysqlclient
+django-enum-choices
+drf-yasg
